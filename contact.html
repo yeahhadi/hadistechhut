@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="Logo.jpg" alt="CS Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Explore</a>
+                        <div class="dropdown-content">
+                            <a href="services.html">Services</a>
+                            <a href="pricing.html">Pricing</a>
+                            <a href="news.html">News</a>
+                          
+                        </div>
+                    </li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="content-section">
+        <h2>Contact Us for a Direct Quote</h2>
+        <p>Fill out the form below and we’ll get back to you with a quote as soon as possible. You only need to provide either your email or phone number, but feel free to include both.</p>
+      
+        <form action="mailto:haditechhubsupport@gmail.com" method="POST" enctype="text/plain">
+          <p>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your full name">
+          </p>
+      
+          <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="you@example.com">
+          </p>
+      
+          <p>
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+          </p>
+      
+          <p>
+            <label for="details">Repair Details:</label><br>
+            <textarea id="details" name="details" rows="5" cols="50" placeholder="Describe the problem or service needed..." required></textarea>
+          </p>
+      
+          <p>
+            <input type="submit" value="Request Quote">
+          </p>
+          <img src="11th-and-12th-cs-1.gif" alt="contactGif">
+        </form>
+      </section>
+   
+    <footer>
+        <p>© 2025 Hadi's TechHub</p>
+    </footer>
+</body>
+</html>
